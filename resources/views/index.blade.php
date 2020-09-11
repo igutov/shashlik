@@ -4,7 +4,7 @@
 <head>
     <title>&quot;Шашлык73&quot; Заказ шашлыка OnLine</title>
     <meta charset="UTF-8">
-    <link href="favicon.png" rel="icon" type="image/x-icon" />
+    <link href="{{ setting('site.logo') }}" rel="icon" type="image/x-icon" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow" />
@@ -135,12 +135,12 @@
                 </div>
             </div>
 
-            @include('tabs.shashlyk')
+            {{-- @include('tabs.shashlyk')
             @include('tabs.post_menu')
             @include('tabs.salat')
             @include('tabs.sous_lavash')
             @include('tabs.big_company')
-            @include('tabs.tasty')
+            @include('tabs.tasty') --}}
 
             <div class="about_company common">
                 <h1>--- О компании ---</h1>

@@ -15,6 +15,10 @@ class CreateFoodStatusTable extends Migration
     {
         Schema::create('food_status', function (Blueprint $table) {
             $table->id();
+            $table->bigInteger('food_id')->unsigned();
+            $table->bigInteger('status_id')->unsigned();
+            $table->foreign('food_id')->references('id')->on('food')->onDelete('cascade');
+            $table->foreign('status_id')->references('id')->on('status')->onDelete('cascade');
             $table->timestamps();
         });
     }
