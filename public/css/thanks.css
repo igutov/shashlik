@@ -1,0 +1,264 @@
+/*COLORS:
+.header #660000
+.menu-bar #520000
+.footer,busket #330000
+.background #141414
+accent-color #ff0000
+text-color1 #666666
+text-color2 #996666
+*/
+
+@font-face {
+font-family:Roboto-Black;
+src: url(../FONTS/Roboto-Black.ttf);
+}
+@font-face {
+font-family:Roboto-Bold;
+src: url(../FONTS/Roboto-Bold.ttf);
+}
+@font-face {
+font-family:Roboto-Light;
+src: url(../FONTS/Roboto-Light.ttf);
+}
+@font-face {
+font-family:Roboto-Medium;
+src: url(../FONTS/Roboto-Medium.ttf);
+}
+@font-face {
+font-family:Roboto-Thin;
+src: url(../FONTS/Roboto-Thin.ttf);
+}
+
+body {
+    background-color: #141414; 
+    color: white;
+    font-family:'Roboto-Medium', sans-serif;
+    background-image: url(../IMGS/fire_smoke_flowers_patterns_10341_3840x2400.png);
+    background-position:bottom;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+/*чтобы прибить футер*/
+.after-body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/*WRAPPER*/
+ .wrapper {
+    width: 1480px;
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     margin: auto;
+     height: 100%;
+}
+
+/*/WRAPPER*/
+
+/*HEADER*/
+.top_header {
+    background-color: #660000;
+    height: 94px;
+}
+
+.top_header_name {
+    font-family:'Roboto-Thin', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-right: 220px;
+   
+}
+
+.top_header_phone  {
+    font-family:'Roboto-Bold', sans-serif;
+    font-size: 23.51px;
+    margin-left: 14px;
+    margin-right: 25px;
+   
+}
+
+.top_header_phone_order {
+    font-family:'Roboto-Light', sans-serif;
+    font-size: 10.65px;
+   
+}
+
+.top_header_busket {
+    padding: 0 8px;
+    background-color: #330000;
+    height: 100%;
+    font-family:'Roboto-Thin', sans-serif;
+    font-size: 14px;
+    text-align: right;
+}
+
+.top_header_busket_button {
+    font-family:'Roboto-Medium', sans-serif;
+    font-size: 12px;
+    border: 3px solid #ff0000;
+    padding: 6px 45px;
+    border-radius: 6px;
+    text-align: center;
+    vertical-align:top;
+    padding-bottom: 10px;
+    display: block;
+    margin-top: 10px;
+}
+
+.top_header_busket_rub {
+    line-height: 1.5;
+}
+
+.social {
+    margin-right: 14px;
+}
+
+.social-last {
+    margin-right: 27px;
+}
+
+/*/HEADER*/
+
+/*MENU-BAR*/
+.top_menu-bar {
+    background-color: #520000;
+}
+
+ .top_menu-bar_ul {
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_menu-bar_li {
+    list-style: none;
+    margin-right: 8px;
+}
+
+/*/MENU-BAR*/
+
+/*FOOTER*/
+.footer {
+    width: 100%;
+    background-color: #330000;
+    height: 140px;
+
+}
+/*/FOOTER*/
+
+/*TRANSPARENT-BLACK-HEADER*/
+.transparent-black-header {
+    background-color: rgba(0,0,0,.7);
+    font-size: 48px;
+    text-align: center;
+    vertical-align: middle;
+    font-family:'Roboto-Thin', sans-serif;
+    font-weight: normal;
+    padding: 15px 0;
+}
+
+.transparent-black-header_smaller {
+    font-size: 30px;
+    font-family:'Roboto-Light', sans-serif;
+}
+/*/TRANSPARENT-BLACK-HEADER*/
+
+/*ORDERS*/
+.goods_apetit {
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    font-family:'Roboto-Thin', sans-serif;
+    margin: auto;
+    color: #666666;
+    letter-spacing: 5px;
+    margin: 75px 0;
+}
+
+.goods_wrapper {
+    width: 1286px;
+    margin: auto;
+    text-align: center;
+}
+
+/*/ORDERS*/
+
+
+/*THANKS*/
+
+.thanks_wrapper {
+    width:450px;
+    margin: auto;
+    text-align: center;
+}
+
+.thanks{
+    font-size: 24px;
+    font-family:'Roboto-Light', sans-serif;
+    margin-top: 108px;
+}
+
+.thanks_button {
+    border: none; 
+    background-color: #ff0000;
+    width: 375px;
+    margin: auto;
+    padding: 15px 0;
+    border-radius: 6px;
+    margin-top: 60px;
+    margin-bottom: 20px;  
+}
+
+.thanks_phone {
+    font-size: 36px;
+    font-family:'Roboto-Black', sans-serif;
+    color: #ff0000;
+}
+
+.thanks_tip {
+    font-size: 18px;
+    font-family:'Roboto-Light', sans-serif;
+}
+
+
+/*/THANKS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

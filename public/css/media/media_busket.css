@@ -1,0 +1,261 @@
+@media screen and (max-width: 1173px) {
+    .order-form {
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 1040px) {
+    .inform{
+        margin: 0 auto 20px;
+        display: block;
+        width: 320px;
+    }
+    .summary_button_back {
+        padding: 7px 0;
+    }
+
+    .summary_button_next{
+        padding: 7px 0;
+    }
+
+    .summary_button {
+        width: 160px;
+        text-align: center;
+        padding: 7px 3px;
+        vertical-align: middle;
+    }
+
+    .summary_total {
+        font-size: 15px;
+    }
+
+    .order-form {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    /*
+        .orders_button {
+        padding: 3px 9px;
+        border: 2px solid #ff0000;
+        border-radius: 6px;
+        }
+
+        .orders_button_quan {
+        border: none;
+        }
+    */
+    .orders_operations{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .thanks_container {
+        width: 65%;
+    }
+
+    .conditions_content_unit{
+        width: 75%;
+
+    }
+
+    .order-form .input:first-child {
+        margin-right: 0px;
+    }
+    #adress {
+
+        text-align: left;
+    }
+
+    .order-form textarea{
+        width: 93%;
+
+    }
+    .order-form .input{
+        width: 93%;
+    }
+    #adress {
+        width: 93%;
+
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    .orders>.wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .orders .orders_img_set{
+        width: 250px;
+        height: 350px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        flex-wrap: wrap;
+        margin: 10px;
+        position: relative;
+    }
+
+    .orders_img_container{
+        align-self: flex-start;
+        padding-left: 20px;
+    }
+
+    .orders_details{
+        width: 80%;
+        padding-left: 0px;
+    }
+
+    .orders_name{
+        height: 60px;
+    }
+    .orders_descr{
+        height: 60px;
+    }
+    .orders_weight{
+        height: 20px;
+    }
+
+    .orders_operations{
+        flex-direction: row;
+        align-self: flex-end;
+        width: 50%;
+        padding-left: 16px;
+    }
+
+    .orders_sum{
+        position: absolute;
+        bottom: 18px;
+        left: 0;
+        width: 50%;
+    }
+
+    .orders_delete{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        align-self: flex-end;
+        font-size: 30px;
+    }
+
+    #adress {
+        width: 93%;
+        text-align: left;
+    }
+
+    .order-form .input:first-child {
+        margin-right: 0px;
+    }
+    #adress {
+        text-align: left;
+    }
+    .thanks_container {
+        width: 85%;
+    }
+
+    .order-form textarea{
+        width: 93%;
+    }
+    .order-form .input{
+        width: 93%;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .summary_button_next{
+        padding: 15px 5%;
+    }
+
+    .orders .orders_img_set{
+        width: 210px;
+        height: 280px;
+    }
+
+    .orders_img_container{
+        width: 150px;
+        height: 90px;
+    }
+
+    .orders_sum {
+        font-size: 16px;
+    }
+    .orders_name {
+        font-size: 14px;
+        height: 40px;
+    }
+
+    .orders_descr{
+        font-size: 12px;
+        height: 50px;
+    }
+
+
+    .orders_sum{
+        align-self: flex-start;
+        width: 50%;
+        bottom: 20px;
+    }
+
+    .orders_delete {
+        font-size: 25px;
+    }
+
+    .orders_button {
+        padding: 5px 10px;
+        border: 1px solid #ff0000;
+    }
+}
+
+@media screen and (max-width: 465px) {
+
+    .order-form textarea{
+        width: 90%;
+
+    }
+    .order-form .input{
+        width: 90%;
+    }
+    #adress {
+        width: 90%;
+    }
+    .thanks_button {
+        width: 80%;
+
+    }
+
+    .delivery_text  {
+        font-size: 17px;
+
+    }
+    .thanks_text {
+        font-size: 20px;
+    }
+
+    .thanks_phone {
+        font-size: 35px;
+    }
+    .thanks_button {
+        font-size: 14px;
+    }
+    .thanks_tip {
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
