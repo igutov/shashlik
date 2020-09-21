@@ -1,0 +1,16 @@
+AddDefaultCharset UTF-8
+Options -Indexes
+ErrorDocument 404 /index.php
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{HTTP_HOST} ^www\.(.*)$
+	RewriteRule ^(.*)$ http://%1/$1 [L,R=301]
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME}\.php -f
+	RewriteRule ^(.*)$ $1.php
+</IfModule>
+
+<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|svg|js|css|pdf)$"> 
+Header set Cache-Control "max-age=2592000" 
+</FilesMatch>

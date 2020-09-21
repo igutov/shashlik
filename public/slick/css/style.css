@@ -1,0 +1,220 @@
+  
+/* ПРЕДПОСЛЕДНИЙ ЭЛЕМЕНТ ПЕРЕД ФУТЕРОМ*/
+
+.slider{
+    height: 550px;
+}
+
+.slider_slide .wrapper{
+    position: relative;
+    height: inherit;
+}
+
+.slider_slide1{
+    background-image: url("/image/index/slider/1.jpg"); 
+}
+.slider_slide2{
+    background-image: url("/image/index/slider/2.jpg");
+}
+.slider_slide3{
+    background-image: url("/image/index/slider/3.jpg");
+}
+.slider_slide4{
+    background-image: url("/image/index/slider/4.jpg");
+}
+
+.slider_slide{
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slick-dotted.slick-slider
+{
+    margin-bottom: 0px;
+}
+
+.slick-dots
+{
+    bottom: 15px;
+}
+
+.slick-dots li
+{
+    margin: 0 10px;
+    border: 3px solid black;
+    background: black;
+    border-radius: 50%;
+    opacity: .9;
+}
+
+.slick-dots li.slick-active{
+    background-color: red;
+    border-color: white;
+    opacity: 1;
+}
+
+.slick-dots li button:before
+{
+    display: none;
+}
+
+.slider_more{
+    display: block;
+    position: absolute;
+    font-size: 21px;
+    font-family: 'Roboto-Black', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 19px 45px 19px 60px;
+    background-color: rgba(255, 0, 0, .8);
+    border: 2px solid white;
+    border-radius: 5px;
+    bottom: 18%;
+    right: 4%;
+    letter-spacing: 1.5px;
+}
+
+.shashlyk>h1{
+    background-color: transparent;
+    color: red;
+    padding: 0px;
+}
+
+.food_container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+.food_item_block{
+    padding: 6px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.food_item{
+    width: 300px;
+    height: 430px;
+    margin: 0 auto;
+    border: 2px solid #656565;
+    border-radius: 5px;
+    background-color: #141414;
+    padding: 5px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.food_photo{
+    width: 100%;
+    height: 47%; 
+}
+
+.food_photo>img{
+    width: 100%;
+    height: 100%;
+}
+
+.food_info{
+    max-width: 255px;
+    height: 180px;
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: left;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto-Light', sans-serif;
+    position: relative;
+}
+
+.food_name{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'Roboto-Black', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.food_weight{
+    position: absolute;
+    bottom: 15%;
+    display: block;
+    height: 30px;
+}
+
+.food_price{
+    position: absolute;
+    bottom: 0px;
+    font-size: 28px;
+    color: #9fff0c;
+}
+
+.food_basket{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    padding: 7px 20px 7px 25px;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: 'Roboto-Medium', sans-serif;
+    -webkit-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.food_basket:hover{
+    background-color: red;
+}
+
+.about_company_container{
+    width: 99.8%;
+    border: 1px solid gray;
+    background-color: rgba(20, 20, 20, .8);
+    padding: 30px 0px 15px 0px;
+}
+
+.about_company_text{
+    margin: 0px 2.5% 0px 3.5%;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto-Thin', sans-serif;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.about_company_text>p{
+    margin-bottom: 15px;
+}
+
+.about_company_text__green{
+    color: #2ca803;
+}
+
+.about_company_text_number{
+    padding-right: 20px;
+}
+
+.cat_slider_number{
+    color: red;
+    font-size: 30px;
+}

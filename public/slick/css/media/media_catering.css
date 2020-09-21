@@ -1,0 +1,365 @@
+@media screen and (max-width: 1350px) {
+    .cat_slider{
+        height: 400px;
+    }
+    
+    .cat_slider_slide{
+        height: 400px;
+    }
+
+    .photo_container{
+        display: none;
+    }
+
+    .menu_price_item{
+        width: 240px;
+        height: 240px;
+    }
+
+    /* СЛАЙДЕР */
+    .cat_slide_title{
+        height: 100px;
+        font-size: 44px;
+    }
+    
+    .cat_slide_info{
+        font-size: 20px;
+    }
+
+    .cat_slide_more{
+        bottom: 18%;
+    }
+    .slick-dots
+    {
+        bottom: 16%;
+    }
+
+    .services_title{
+        margin-left: 40px;
+        margin-bottom: 30px;
+        font-size: 26px;
+    }
+
+    .services_list{
+        margin-left: 75px;
+        font-size: 20px;
+    }
+    
+    .services_list>li{
+        padding-left: 5px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .catering{
+        margin-bottom: 30px;
+    }
+    .cat_slider{
+        height: 350px;
+    }
+
+    .cat_slider_slide{
+        height: 350px;
+    }
+
+    .cat_slide_text_wrapper{
+        width: 90%;
+        right: 1%;
+  
+    }
+
+    .cat_slide_title{
+        height: 70px;
+        font-size: 32px;
+        width: 70%;
+    }
+    
+    .cat_slide_info{
+        font-size: 14px;
+    }
+
+    .cat_slide_more{
+        bottom: 30%;
+        font-size: 14px;
+        padding: 8px 40px 10px 45px;
+    }
+
+    .slick-dots
+    {
+        bottom: 18%;
+        left: -12%;
+    }
+
+    .slick-dots li
+    {
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+    }
+
+    .menu_price_container{
+        justify-content: space-around;
+        width: 65%;
+        margin: 0 auto;
+    }
+    .menu_price_item{
+        margin-bottom: 20px;
+    }
+
+    .services_chef_photo{
+        height: 65%;
+    }
+    .services_chef {
+        font-size: 20px;
+    }
+    .services_chef_name {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .cat_slider{
+        height: 280px;
+    }
+
+    .cat_slider_slide{
+        height: 280px;
+    }
+
+    .cat_slide_text_wrapper{
+        height: 90%;
+    }
+
+    .menu_price_container{
+        justify-content: space-around;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .cat_slide_more{
+        bottom: 10%;
+        font-size: 14px;
+        padding: 8px 40px 10px 45px;
+    }
+
+    .cat_slide_title{
+        font-size: 24px;
+        margin-bottom: 0px;
+        height: 80px;
+    }
+
+    .services_chef_photo{
+        height: 50%;
+    }
+    
+    .cat_slide_info{
+        font-size: 12px;
+    }
+
+    .slick-dots
+    {
+        bottom: 13%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .cat_slider{
+        height: 200px;
+    }
+
+    .cat_slider_slide{
+        height: 200px;
+    }
+
+    .cat_slide_text{
+        width: 100%;
+    }
+
+    .cat_slide_photo{
+        display: none;
+    }
+
+    .cat_slide_text_wrapper{
+        position: inherit;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .cat_slide_more{
+        bottom: 10%;
+        font-size: 10px;
+        padding: 3px 30px 5px 35px;
+    }
+
+    .cat_slide_title{
+        font-size: 20px;
+        width: 100%;
+        height: 40px;
+    }
+    
+    .cat_slide_info{
+        font-size: 12px;
+        height: 100px;
+    }
+
+    .slick-dots
+    {
+        width: 150px;
+        bottom: 12%;
+        left: 50%;
+    }
+
+    .menu_price_item{
+        width: 200px;
+        height: 200px;
+        margin-right: 10px;
+    }
+    .menu_price_text{
+        font-size: 20px;
+        height: 50px;
+    }
+
+    .menu_price_item4>.menu_price_text{
+        height: 40px;
+        padding-top: 20px;
+    }
+
+    /* ТАБЛИЦА */
+    .menu_price_row{
+        font-size: 14px;
+    }
+
+    .menu_price_row th{
+        font-size: 26px;
+        padding-left: 5px;
+    }
+    /* Серая строка Наименование */
+    
+
+    .menu_price_row>td:first-child,
+    .menu_price_row>th{
+        padding-left: 5px;
+    }
+    .menu_price_table2 .menu_price_row>td:first-child{
+        width: 230px;
+    }
+
+    .services{   
+        color: #fff;
+        height: 700px;
+    }
+
+    .services>.wrapper{
+        padding-top: 50px;
+        height: 595px;
+    }
+
+    .services_title{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .services_list{
+        margin-left: 35px;
+        font-size: 16px;
+    }
+
+    .services_chef {
+        font-size: 16px;
+    }
+    .services_chef_name {
+        font-size: 34px;
+    }
+
+    .info_company_text{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    .sales{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .services{
+        height: 850px;
+    }
+    /* wrapper = services - 110px */
+    .services>.wrapper{
+        height: 740px;
+    }
+    .services_chef_photo{
+        height: 45%;
+    }
+    .services_chef {
+        font-size: 12px;
+    }
+    .services_chef_name {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .cat_slide_text_wrapper{
+        width: 96%;
+    }    
+    /* ТАБЛИЦА */
+    .menu_price_row{
+        font-size: 12px;
+    }
+    .menu_price_row th{
+        font-size: 22px;
+    }
+    .menu_price_table2 .menu_price_row>td:first-child{
+        width: 200px;
+    }
+
+    .services_info_chef{
+        right: 145px;
+    }
+
+    .services_chef_photo{
+        height: 30%;
+    }
+
+    .services_title{
+
+        font-size: 18px;
+    }
+
+    .services_list{
+        font-size: 16px;
+    }
+
+    .services_chef {
+        font-size: 12px;
+    }
+    .services_chef_name {
+        font-size: 20px;
+    }
+
+    .sales{
+        font-size: 16px;
+        
+    }
+
+    .sales_list{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .services{
+        height: 900px;
+    }
+    /* wrapper = services - 110px */
+    .services>.wrapper{
+        height: 790px;
+    }
+
+    .menu_price_title{
+        font-size: 30px;
+    }
+}

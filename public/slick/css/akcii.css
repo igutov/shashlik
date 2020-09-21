@@ -1,0 +1,69 @@
+.main_bonappetit{
+    padding: 10px 0px 30px 0px;
+}
+
+/*GOODS*/
+.goods>.wrapper {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.goods_img-set {
+    display: inline-block;
+    margin-bottom: 120px;
+    position: relative;
+    width: 630px;
+}
+
+.goods_akcia-img{
+    width: 100%;
+    height: 100%;
+}
+
+.slider_more {
+    border: 3px solid white;
+    border-radius: 8px;
+    font-family:'Roboto-Black', sans-serif;
+    font-size: 21px;
+    padding: 20px 60px;
+    background-color: rgba(255, 0, 0, .8);
+    position: absolute;
+    color: #fff;
+    top: 85%;
+    left: 30%; 
+    text-decoration: none;
+}
+
+.main_bonappetit{
+    bottom: 220px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

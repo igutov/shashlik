@@ -1,0 +1,355 @@
+/*COLORS:
+.header #660000
+.menu-bar #520000
+.footer,busket #330000
+.background #141414
+accent-color #ff0000
+text-color1 #666666
+text-color2 #996666
+*/
+
+@font-face {
+font-family:Roboto-Black;
+src: url(../FONTS/Roboto-Black.ttf);
+}
+@font-face {
+font-family:Roboto-Bold;
+src: url(../FONTS/Roboto-Bold.ttf);
+}
+@font-face {
+font-family:Roboto-Light;
+src: url(../FONTS/Roboto-Light.ttf);
+}
+@font-face {
+font-family:Roboto-Medium;
+src: url(../FONTS/Roboto-Medium.ttf);
+}
+@font-face {
+font-family:Roboto-Thin;
+src: url(../FONTS/Roboto-Thin.ttf);
+}
+
+body {
+    background-color: #141414; 
+    color: white;
+    font-family:'Roboto-Medium', sans-serif;
+    background-image: url(../IMGS/fire_smoke_flowers_patterns_10341_3840x2400.png);
+    background-position:bottom;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+/*чтобы прибить футер*/
+.after-body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/*WRAPPER*/
+ .wrapper {
+    width: 1480px;
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     margin: auto;
+     height: 100%;
+}
+
+/*/WRAPPER*/
+
+/*HEADER*/
+.top_header {
+    background-color: #660000;
+    height: 94px;
+}
+
+.top_header_name {
+    font-family:'Roboto-Thin', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-right: 220px;
+   
+}
+
+.top_header_phone  {
+    font-family:'Roboto-Bold', sans-serif;
+    font-size: 23.51px;
+    margin-left: 14px;
+    margin-right: 25px;
+   
+}
+
+.top_header_phone_order {
+    font-family:'Roboto-Light', sans-serif;
+    font-size: 10.65px;
+   
+}
+
+.top_header_busket {
+    padding: 0 8px;
+    background-color: #330000;
+    height: 100%;
+    font-family:'Roboto-Thin', sans-serif;
+    font-size: 14px;
+    text-align: right;
+}
+
+.top_header_busket_button {
+    font-family:'Roboto-Medium', sans-serif;
+    font-size: 12px;
+    border: 3px solid #ff0000;
+    padding: 6px 45px;
+    border-radius: 6px;
+    text-align: center;
+    vertical-align:top;
+    padding-bottom: 10px;
+    display: block;
+    margin-top: 10px;
+}
+
+.top_header_busket_rub {
+    line-height: 1.5;
+}
+
+.social {
+    margin-right: 14px;
+}
+
+.social-last {
+    margin-right: 27px;
+}
+
+/*/HEADER*/
+
+/*MENU-BAR*/
+.top_menu-bar {
+    background-color: #520000;
+}
+
+ .top_menu-bar_ul {
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_menu-bar_li {
+    list-style: none;
+    margin-right: 8px;
+}
+
+/*/MENU-BAR*/
+
+/*FOOTER*/
+.footer {
+    width: 100%;
+    background-color: #330000;
+    height: 140px;
+
+}
+/*/FOOTER*/
+
+/*TRANSPARENT-BLACK-HEADER*/
+.transparent-black-header {
+    background-color: rgba(0,0,0,.7);
+    font-size: 48px;
+    text-align: center;
+    vertical-align: middle;
+    font-family:'Roboto-Thin', sans-serif;
+    font-weight: normal;
+    padding: 15px 0;
+}
+
+.transparent-black-header_smaller {
+    font-size: 30px;
+    font-family:'Roboto-Light', sans-serif;
+}
+/*/TRANSPARENT-BLACK-HEADER*/
+
+/*ORDERS*/
+.goods_apetit {
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    font-family:'Roboto-Thin', sans-serif;
+    margin: auto;
+    color: #666666;
+    letter-spacing: 5px;
+    margin: 75px 0;
+}
+
+.goods_wrapper {
+    width: 1286px;
+    margin: auto;
+    text-align: center;
+}
+
+.orders_button {
+    padding: 6px 12px;
+    border: 3px solid #ff0000;
+    border-radius: 6px; 
+}
+
+.orders_button_quan {
+    color: black;
+    background-color: #fff;
+    border: none;
+    display: inline-block;
+    border: 2px solid #fff;
+}
+
+
+
+.orders_button_plus, .orders_button_minus, .orders_delete {
+    cursor: pointer;
+    transition: .3s;
+    display: inline-block;
+}
+
+.orders_button_plus:hover, .orders_button_minus:hover {
+    transition: .3s;
+    background-color: #ff0000;
+}
+
+.summary_button {
+    padding: 13px 0;
+    border: 2.3px solid #666;
+    border-radius: 6px;
+    transition: .3s;
+    background: rgba(0,0,0,.8);
+}
+
+.summary_button:hover {
+    background-color: #ff0000;
+    border: 2.3px solid #fff;
+    transition: .3s;
+}
+
+.summary_button_back {
+    padding: 13px 25px;
+}
+
+.summary_button_order {
+    padding: 13px 62px;
+   
+}
+/*/ORDERS*/
+
+/*FORM*/
+
+.order-form  {
+    width: 750px;
+    margin: auto;
+    text-align: center;
+}
+
+.order-form input {
+    width: 45%;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+}
+
+.order-form textarea {
+    width: 95%;
+    padding-top: 15px;
+    resize: none;
+    background-color: #d2d2d2;
+}
+
+.order-form input:nth-child(2n+1) {
+    margin-right: 17px;
+}
+
+.order-form input, .order-form textarea {
+    padding-left: 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+    font-family:'Roboto-Light', sans-serif;
+}
+
+.order-form_agree {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.order-form_agree_box {
+    border: 2px solid #666666;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    
+}
+
+.order-form_agree_text {
+    vertical-align:top;
+    font-size: 14px;
+    font-family:'Roboto-Light', sans-serif;
+    margin-left: 3px;
+}
+
+.delivery {
+    margin: auto;
+/*
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+*/
+    margin-top: 15px;
+    text-align: right;
+}
+
+.delivery_text, .summary_button {
+    display: inline-block;
+}
+
+.delivery_text  {
+    font-size: 24px;
+    font-family:'Roboto-Black', sans-serif;
+    margin-right: 70px;
+    vertical-align: middle;
+}
+
+
+
+/*/FORM*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
